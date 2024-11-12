@@ -9,5 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run bash cmmand
-        run: echo "first workflow"
+        run: ls
+        shell: bash
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: after chechout
+        run: ls
         shell: bash
