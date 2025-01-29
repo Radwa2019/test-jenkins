@@ -3,7 +3,7 @@ name: second-workflow
 on: 
   push:
     branches:
-        - "master"
+        - "main"
 jobs:
   build: 
     name: run bash command 
