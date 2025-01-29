@@ -1,11 +1,1 @@
-name: schedule-event2
-on: 
- schedule:
-   - cron: '0/5 * * * *'
-   - cron: '0/20 1 * * *'
-jobs: 
-  cron-workflow:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "hello from schedule"
-      
+
