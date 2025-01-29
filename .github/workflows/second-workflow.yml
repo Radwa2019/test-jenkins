@@ -1,13 +1,13 @@
 
 name: second-workflow
 on: 
-  push:
+  push: 
     branches:
-        - "main"
-jobs:
-  build: 
-    name: run bash command 
-    runs-on: ubuntu
+     - "main" 
+jobs: 
+  second_work_job: 
+    name: first job
+    runs-on: ubuntu-latest
     steps:
      - name: run bash command
        run: echo 'second workflow'
