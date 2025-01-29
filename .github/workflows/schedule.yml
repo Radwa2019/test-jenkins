@@ -3,7 +3,7 @@ on:
  schedule:
    - cron: '0/5 * * * *'
 jobs: 
-  schedule-workflow
+  schedule-workflow:
     runs-on: ubuntu
     steps:
       - run: echo "hello from schedule"
