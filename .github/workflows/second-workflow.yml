@@ -1,1 +1,14 @@
 
+name: second-workflow
+on: 
+  push:
+    branches:
+        - "master"
+jobs:
+  build: 
+    name: run bash command 
+    runs-on: ubuntu
+    steps:
+     - name: run bash command
+       run: echo 'second workflow'
+       shell: bash
