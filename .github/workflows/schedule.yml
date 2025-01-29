@@ -1,4 +1,4 @@
-name: schedule-event
+name: schedule-event2
 on: 
  schedule:
    - cron: '0/5 * * * *'
